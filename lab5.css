@@ -1,0 +1,25 @@
+body
+  {
+  font-family:        Arial, Helvetica, sans-serif;
+  background-color:   #fff36d;    
+  color:              black;
+  }
+p
+  {
+  background-color:   lightPink;      
+  color:              darkGreen;
+  }
+q
+  {
+  font-weight:         bold;
+  }
+#sky
+  {
+  background-color: #add8e5;
+  color: #600000;
+  }
+#long
+  {
+  border: 8px solid gray;
+  padding: 16px;
+  }

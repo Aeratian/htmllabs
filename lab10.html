@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+	<title>
+      South Korea
+    </title>
+	<style>
+	  body
+      {
+        background: url('images/lightblue.jpg') skyblue;
+      }
+	</style>
+  </head>
+  <body>
+    <form>
+	  <table>
+	    <tr>
+		  <td>Enter Your Name:</td>
+		  <td><input type="text" name="fname" size="20" maxlength="35" placeholder="Your Full Name"></td>
+		</tr>
+		<tr>
+		  <td>Enter Your Address:</td>
+		  <td><textarea name="address" rows="4" cols="60" placeholder="Address"></textarea></td>
+		</tr>
+		<tr>
+		  <td>Choose A City:</td>
+		  <td>
+		    <select name="cities" id="city">
+              <option value="Seoul">Seoul</option>
+			  <option value="Busan">Busan</option>
+			  <option value="Incheon">Incheon</option>
+			  <option value="Daegu">Daegu</option>
+			  <option value="Gwangju">Gwangju</option>
+			  <option value="Ulsan">Ulsan</option>
+			  <option value="Daejeon">Daejeon</option>
+			  <option value="Jeju">Jeju</option>
+			</select>
+		</tr>
+		<tr>
+		  <td>Choose A Season:</td>
+		  <td>
+		    Spring<input type="radio" name="season" value="spring" checked="checked"/>
+			Summer<input type="radio" name="season" value="summer"/>
+			Autumn<input type="radio" name="season" value="autumn"/>
+			Winter<input type="radio" name="season" value="winter"/>
+		  </td>
+		</tr>
+		<tr>
+		  <td>Handicap?</td>
+		  <td><input type="checkbox" name="wrapping" value="Handicap"/></td>
+		</tr>
+		<tr>
+		  <td>Reset:</td>
+		  <td><button type="reset" name="res">Erase all entries</button></td>
+		</tr>
+	  </table>
+	</form>
+    <p> <a href="index.html">Index</a> </p>
+  </body>
+</html>
